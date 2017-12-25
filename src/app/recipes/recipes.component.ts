@@ -1,3 +1,4 @@
+import { Recipe } from './recipe.model';
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,5 +6,5 @@ import { Component } from '@angular/core';
     templateUrl: './recipes.component.html'
 })
 export class RecipesComponent {
-
+    selectedRecipe: Recipe;
 }
