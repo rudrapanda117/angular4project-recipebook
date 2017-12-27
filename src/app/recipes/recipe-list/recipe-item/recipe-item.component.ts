@@ -10,6 +10,7 @@ import { RecipeService } from '../../recipe.service';
 export class RecipeItemComponent implements OnInit {
 
   @Input('recipe') recipe: Recipe;
+  @Input('index') index: number;
 
 
   constructor(private recipeService: RecipeService) { }
